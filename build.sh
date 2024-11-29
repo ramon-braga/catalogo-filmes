@@ -1,4 +1,8 @@
 #!/bin/bash
-apt-get update -y
+
+# Instalar Maven
+apt-get update
 apt-get install -y maven
+
+# Build com Maven
 mvn clean install
