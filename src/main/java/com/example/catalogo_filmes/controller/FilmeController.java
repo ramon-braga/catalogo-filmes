@@ -21,7 +21,7 @@ import com.example.catalogo_filmes.service.FilmeService;
 
 @RestController
 @RequestMapping("/filmes")
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "*")
 public class FilmeController {
 
     @Autowired
